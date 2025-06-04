@@ -19,22 +19,16 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(-45deg, #af40ff, #5b42f3, #00ddeb, #00ffa6);
-      background-size: 400% 400%;
-      animation: gradient 15s ease infinite;
-    }
-
-    @keyframes gradient {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
+      background: linear-gradient(135deg, #0a0a0a, #1a1a1d);
+      color: #f0f0f0;
+      padding: 1rem;
     }
 
     .container {
-      background: white;
+      background: #121212;
       padding: 3rem 2rem;
       border-radius: 16px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
       text-align: center;
       max-width: 480px;
       width: 100%;
@@ -43,15 +37,16 @@
     h1 {
       font-size: 2.5rem;
       margin-bottom: 2rem;
-      color: #222;
+      color: #ffffff;
     }
 
+    /* Dark-styled Uiverse button */
     button {
       align-items: center;
-      background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+      background-image: linear-gradient(144deg, #444, #222 50%, #111);
       border: 0;
       border-radius: 8px;
-      box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+      box-shadow: rgba(0, 0, 0, 0.6) 0 15px 30px -5px;
       color: #ffffff;
       display: flex;
       font-size: 18px;
@@ -65,7 +60,7 @@
     }
 
     button span {
-      background-color: rgb(5, 6, 45);
+      background-color: #1a1a1d;
       padding: 16px 24px;
       border-radius: 6px;
       width: 100%;
@@ -74,7 +69,7 @@
     }
 
     button:hover span {
-      background: none;
+      background: #000;
     }
 
     button:active {
@@ -87,9 +82,8 @@
 
     footer {
       margin-top: 20px;
-      color: white;
-      font-size: 1.2rem;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+      color: #aaa;
+      font-size: 1rem;
     }
   </style>
 </head>
@@ -113,4 +107,3 @@
 
 </body>
 </html>
-
